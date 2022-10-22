@@ -1,3 +1,5 @@
+import Validator from "./validator.js";
+
 export default class Bill {
     from: number;
     to: number;
@@ -7,12 +9,6 @@ export default class Bill {
         this.from = from;
         this.to = to;
         this.cash = cash;
-    }
-
-    static checkInput(func: Function): string{
-        let input = func();
-        input = input !== null && input !== undefined && input !== "" ? input : this.checkInput(func);
-        return input;
     }
 
     static sort(arr: Bill[]): Bill[] {
@@ -26,17 +22,19 @@ export default class Bill {
         });
     }
 
-    static serch(arr: Bill[]): string {
-        let serch: string;
-        serch = this.checkInput(() => { return prompt("Поиск инфорации по переводу введите счет")});
+    static serch(arr: Bill[], str: string): string[] {
+        let result: string[] = [];
 
-        for(let i = 0; i < arr.length; i++) {
-            if(Number(serch) === arr[i].from) {
-                return `С вашго счета списано ${arr[i].cash}`;
-            } else if(i == arr.length){
-                return "Такого счета нет";
+        for(let i = 0, j = 0; i < arr.length; i++) {
+            if(Number(str) === arr[i].from) {
+                result.push(`С вашго счета списано ${arr[i].cash}`);
+                j++;
+            }
+
+            if(j == 0 && i == arr.length - 1){
+                result.push("Перевода не было");
             }
         }
-        
+        return result;
     }
 }

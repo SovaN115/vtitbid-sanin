@@ -4,11 +4,6 @@ export default class Bill {
         this.to = to;
         this.cash = cash;
     }
-    static checkInput(func) {
-        let input = func();
-        input = input !== null && input !== undefined && input !== "" ? input : this.checkInput(func);
-        return input;
-    }
     static sort(arr) {
         return arr.sort((a, b) => {
             if (a.from > b.from) {
@@ -20,16 +15,17 @@ export default class Bill {
             return 0;
         });
     }
-    static serch(arr) {
-        let serch;
-        serch = this.checkInput(() => { return prompt("Поиск инфорации по переводу введите счет"); });
-        for (let i = 0; i < arr.length; i++) {
-            if (Number(serch) === arr[i].from) {
-                return `С вашго счета списано ${arr[i].cash}`;
+    static serch(arr, str) {
+        let result = [];
+        for (let i = 0, j = 0; i < arr.length; i++) {
+            if (Number(str) === arr[i].from) {
+                result.push(`С вашго счета списано ${arr[i].cash}`);
+                j++;
             }
-            else if (i == arr.length) {
-                return "Такого счета нет";
+            if (j == 0 && i == arr.length - 1) {
+                result.push("Перевода не было");
             }
         }
+        return result;
     }
 }
