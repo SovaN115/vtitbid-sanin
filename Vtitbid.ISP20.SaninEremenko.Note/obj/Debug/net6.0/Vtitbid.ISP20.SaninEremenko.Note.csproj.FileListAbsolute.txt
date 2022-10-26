@@ -1,0 +1,15 @@
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.csproj.AssemblyReference.cache
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.AssemblyInfoInputs.cache
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.AssemblyInfo.cs
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.csproj.CoreCompileInputs.cache
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\bin\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.exe
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\bin\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.deps.json
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\bin\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.runtimeconfig.json
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\bin\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.dll
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\bin\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.pdb
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.dll
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\refint\Vtitbid.ISP20.SaninEremenko.Note.dll
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.pdb
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\Vtitbid.ISP20.SaninEremenko.Note.genruntimeconfig.cache
+C:\Users\Sova\Desktop\Vtitbid.ISP20.SaninEremenko\Vtitbid.ISP20.SaninEremenko.Note\obj\Debug\net6.0\ref\Vtitbid.ISP20.SaninEremenko.Note.dll
